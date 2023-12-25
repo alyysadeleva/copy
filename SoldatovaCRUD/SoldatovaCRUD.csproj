@@ -241,6 +241,7 @@
       <DependentUpon>BD.edmx</DependentUpon>
       <LastGenOutput>BD.cs</LastGenOutput>
     </Content>
+    <Resource Include="Res\stuff\note.png" />
     <Resource Include="Res\stuff\pizza.jpeg" />
     <Resource Include="Res\stuff\3.png" />
     <Resource Include="Res\stuff\choco.png" />

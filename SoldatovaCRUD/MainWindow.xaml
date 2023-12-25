@@ -12,8 +12,8 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
-            <Image Source="/Res/stuff/pizza.jpeg" Grid.Row="0" Height="100" HorizontalAlignment="Stretch"/>
-            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Stretch"  FontFamily="Segoe Print" FontSize="48" Foreground="LightPink">Pizza</TextBlock>
+            <Image Source="/Res/stuff/note.png" Grid.Row="0" Height="100" HorizontalAlignment="Stretch"/>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Stretch"  FontFamily="Segoe Print" FontSize="48" Foreground="LightPink">copy</TextBlock>
             <TextBlock Name="TimerText" FontFamily="Courgette" FontSize="40" Foreground="LightPink" Margin="20,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
         </StackPanel>
         <Frame Grid.Row="1" Name="MainFrame"></Frame>
