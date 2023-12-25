@@ -6,7 +6,7 @@
     <Application.Resources>
         <Style TargetType="{x:Type Button}">
             <!-- Цвет текста кнопки -->
-            <Setter Property="Background" Value="#FF00A6D3" />
+            <Setter Property="Background" Value="LightPink" />
             <Setter Property="Foreground" Value="White" />
             <!-- Новый шрифт -->
             <Setter Property="FontFamily" Value="Segoe Print"  />
@@ -53,7 +53,7 @@
 
         <Style TargetType="{x:Type TextBlock}">
             <Setter Property="FontFamily" Value="Segoe Print" />
-            <Setter Property="Foreground" Value="#FF006985" />
+            <Setter Property="Foreground" Value="DeepPink" />
         </Style>
 
         <Style TargetType="TextBlock" x:Key="small">
@@ -65,7 +65,7 @@
 
             <Setter Property="FontFamily" Value="Segoe Print" />
             <Setter Property="FontSize" Value="20"></Setter>
-            <Setter Property="Foreground" Value="#FF006985" />
+            <Setter Property="Foreground" Value="DeepPink" />
         </Style>
     </Application.Resources>
 </Application>

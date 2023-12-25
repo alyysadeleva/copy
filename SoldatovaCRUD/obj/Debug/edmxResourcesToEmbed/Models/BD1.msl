@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="SoldatovaCRUDModel1StoreContainer" CdmEntityContainer="SoldatovaCRUDEntities1">
-    <EntitySetMapping Name="EntryHistories">
+  <EntityContainerMapping StorageEntityContainer="Хранилище SoldatovaCRUDModel1Container" CdmEntityContainer="SoldatovaCRUDEntities">
+    <EntitySetMapping Name="EntryHistory">
       <EntityTypeMapping TypeName="SoldatovaCRUDModel1.EntryHistory">
         <MappingFragment StoreEntitySet="EntryHistory">
           <ScalarProperty Name="ID" ColumnName="ID" />
@@ -10,7 +10,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="EntryTypes">
+    <EntitySetMapping Name="EntryType">
       <EntityTypeMapping TypeName="SoldatovaCRUDModel1.EntryType">
         <MappingFragment StoreEntitySet="EntryType">
           <ScalarProperty Name="ID" ColumnName="ID" />
@@ -18,7 +18,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Merches">
+    <EntitySetMapping Name="Merch">
       <EntityTypeMapping TypeName="SoldatovaCRUDModel1.Merch">
         <MappingFragment StoreEntitySet="Merch">
           <ScalarProperty Name="ID" ColumnName="ID" />
@@ -29,7 +29,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Orders">
+    <EntitySetMapping Name="Order">
       <EntityTypeMapping TypeName="SoldatovaCRUDModel1.Order">
         <MappingFragment StoreEntitySet="Order">
           <ScalarProperty Name="ID" ColumnName="ID" />
@@ -46,7 +46,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="OrderMerches">
+    <EntitySetMapping Name="OrderMerch">
       <EntityTypeMapping TypeName="SoldatovaCRUDModel1.OrderMerch">
         <MappingFragment StoreEntitySet="OrderMerch">
           <ScalarProperty Name="ID" ColumnName="ID" />
@@ -56,14 +56,14 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Places">
-      <EntityTypeMapping TypeName="SoldatovaCRUDModel1.Place">
+      <EntityTypeMapping TypeName="SoldatovaCRUDModel1.Places">
         <MappingFragment StoreEntitySet="Places">
           <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="Place1" ColumnName="Place" />
+          <ScalarProperty Name="Place" ColumnName="Place" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Roles">
+    <EntitySetMapping Name="Role">
       <EntityTypeMapping TypeName="SoldatovaCRUDModel1.Role">
         <MappingFragment StoreEntitySet="Role">
           <ScalarProperty Name="ID" ColumnName="ID" />
@@ -72,7 +72,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="SoldatovaCRUDModel1.sysdiagram">
+      <EntityTypeMapping TypeName="SoldatovaCRUDModel1.sysdiagrams">
         <MappingFragment StoreEntitySet="sysdiagrams">
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="principal_id" ColumnName="principal_id" />
@@ -82,7 +82,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Workers">
+    <EntitySetMapping Name="Worker">
       <EntityTypeMapping TypeName="SoldatovaCRUDModel1.Worker">
         <MappingFragment StoreEntitySet="Worker">
           <ScalarProperty Name="ID" ColumnName="ID" />

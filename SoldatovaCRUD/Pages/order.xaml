@@ -106,7 +106,7 @@
                 </ListItem>
                 <ListItem >
                     <Paragraph>
-                        <TextBlock Name="CodeText" Foreground="#FF00A6D3"></TextBlock>
+                        <TextBlock Name="CodeText" Foreground="DeepPink"></TextBlock>
                     </Paragraph>
                 </ListItem>
             </List>

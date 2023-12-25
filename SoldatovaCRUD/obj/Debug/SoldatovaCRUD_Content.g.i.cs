@@ -10,7 +10,5 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/bd.context.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/bd.tt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/bd1.context.tt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/bd1.tt")]
 
 

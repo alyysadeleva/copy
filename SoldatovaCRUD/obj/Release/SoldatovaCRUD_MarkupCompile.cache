@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-L:\CRUD\SoldatovaCRUD\obj\Release\
+C:\Users\User\Desktop\jirPractica\candyshop\SoldatovaCRUD\obj\Release\
 SoldatovaCRUD
 none
 false
 TRACE
-L:\CRUD\SoldatovaCRUD\App.xaml
-7-1907588147
-4-581129707
-29696981301
-18-1680101833
-MainWindow.xaml;Pages\Autorizacia.xaml;Pages\EditWorkers.xaml;Pages\Registr.xaml;Pages\shop.xaml;Pages\shopedit.xaml;Pages\workers.xaml;
+C:\Users\User\Desktop\jirPractica\candyshop\SoldatovaCRUD\App.xaml
+11-1152860470
+2270115144
+33-1461022106
+127657590382
+MainWindow.xaml;Pages\Autorizacia.xaml;Pages\EditWorkers.xaml;Pages\order.xaml;Pages\orderMake.xaml;Pages\Registr.xaml;Pages\shop.xaml;Pages\shopedit.xaml;Pages\shopuser.xaml;Pages\UserHistory.xaml;Pages\workers.xaml;
 
 True
 
